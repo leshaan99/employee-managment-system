@@ -1,7 +1,7 @@
 package Employee.Managment.System.backend.service;
 
-import Employee.Managment.System.backend.dto.EmployeeDto;
+import Employee.Managment.System.backend.entity.Employee;
 
 public interface EmployeeService {
-    EmployeeDto createEmployee(EmployeeDto employeeDto);
+    public Employee createEmployee(Employee employee);
 }
