@@ -1,2 +1,2 @@
 # Employee Managment System
-The user management system is a web application developed essential CRUD operations to manage employee data, allowing users to save, delete, retrieve, and update employee records efficiently.
+This web application is designed to manage employee data through essential CRUD operations. Allows users to easily save, retrieve, update, and delete employee records. The frontend and backend are connected via a RESTful API, ensuring smooth communication and data exchange between the client and server.
