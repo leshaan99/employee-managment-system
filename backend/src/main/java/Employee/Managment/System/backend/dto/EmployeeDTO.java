@@ -1,15 +1,21 @@
 package Employee.Managment.System.backend.dto;
 
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Data
 public class EmployeeDTO {
-    private Integer empId;
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int empId;
     private String empName;
     private String empAddress;
-    private Integer empMNum;
+    private int empMNum;
 }
