@@ -12,8 +12,6 @@ import lombok.NoArgsConstructor;
 @Data
 public class EmployeeDTO {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int empId;
     private String empName;
     private String empAddress;
