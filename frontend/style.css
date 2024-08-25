@@ -1,0 +1,82 @@
+/* styles.css */
+
+body {
+    background: linear-gradient(135deg, #0f1c3f, #3a4b8c);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    max-width: 900px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section, .table-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.table-section {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.form-section {
+    max-width: 40%;
+}
+
+.table-section {
+    max-width: 55%;
+}
+
+.form-label, .btn {
+    color: #ffffff;
+}
+
+input[type="text"], input[type="number"], input[disabled] {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+input[type="text"]::placeholder, input[type="number"]::placeholder, input[disabled]::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+input[disabled] {
+    opacity: 1;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+th, td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
